@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.site-header,.filters,.footer,.links,.menu,.banner{display:none}.wrap{max-width:none;padding:0}.page{padding:0}.pub,.row{break-inside:avoid}a{color:inherit}.portrait{display:none}.intro{display:block}.research{display:block}.diagram{display:none}}
 
 .portrait.photo{display:block;position:relative;overflow:hidden}.portrait.photo img{position:absolute;width:160%;height:auto;max-width:none;left:-30%;top:-25%}
+
+.metrics{display:flex;gap:58px;margin:24px 0 12px}.metrics div{display:flex;flex-direction:column}.metrics strong{font-weight:500;font-size:32px;line-height:1.4;color:var(--ink)}.metrics span{font-size:13px;color:var(--muted)}.pub-meta{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0 12px;align-items:center}.author-role{font-size:11px;background:#edf3f4;color:#315d6d;border-radius:3px;padding:3px 9px}.citation-count{font-size:12px}.journal-list{columns:2;column-gap:40px;padding-left:20px;font-size:14px}.journal-list li{break-inside:avoid;margin:0 0 12px}@media(max-width:760px){.metrics{gap:30px}.metrics strong{font-size:28px}.journal-list{columns:1}}
